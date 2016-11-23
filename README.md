@@ -1,7 +1,7 @@
 ![Licence](https://img.shields.io/badge/licence-AGPL--3-blue.svg)
 [![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/92/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-financial-tools-92)
-[![Build Status](https://travis-ci.org/OCA/account-financial-tools.svg?branch=9.0)](https://travis-ci.org/OCA/account-financial-tools)
-[![Coverage Status](https://coveralls.io/repos/OCA/account-financial-tools/badge.svg?branch=9.0)](https://coveralls.io/r/OCA/account-financial-tools?branch=9.0)
+[![Build Status](https://travis-ci.org/zeroincombenze/account-financial-tools.svg?branch=9.0)](https://travis-ci.org/zeroincombenze/account-financial-tools)
+[![Coverage Status](https://coveralls.io/repos/zeroincombenze/account-financial-tools/badge.svg?branch=9.0)](https://coveralls.io/r/zeroincombenze/account-financial-tools?branch=9.0)
 
 Account financial Tools for Odoo/OpenERP
 ========================================
