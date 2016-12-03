@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-07-08 13:53+0000\n"
+"POT-Creation-Date: 2016-11-28 21:00+0000\n"
+"PO-Revision-Date: 2016-12-02 13:53+0000\n"
 "Last-Translator: Letícia do Nascimento Souza <leticia.souza@kmee.com.br>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -308,7 +308,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.recompute.trigger,state:0
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0 view:asset.asset.report:0
@@ -628,7 +628,7 @@ msgstr ""
 #: selection:account.asset.history,method_period:0
 #: selection:asset.modify,method_period:0
 msgid "Month"
-msgstr ""
+msgstr "Mês"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -677,7 +677,7 @@ msgstr "ou"
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #. module: account_asset_management
 #: field:account.asset.asset,method_number:0
@@ -1121,7 +1121,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_fiscalyear
 msgid "Fiscal Year"
-msgstr ""
+msgstr "Ano Fiscal"
 
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_asset_depreciation_line
@@ -1177,7 +1177,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_move
 msgid "Account Entry"
-msgstr ""
+msgstr "Entrada de conta"
 
 #. module: account_asset_management
 #: view:account.move:0

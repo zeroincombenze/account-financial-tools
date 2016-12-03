@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-06-03 16:41+0000\n"
+"POT-Creation-Date: 2016-09-30 23:40+0000\n"
+"PO-Revision-Date: 2016-11-22 16:35+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -220,7 +220,7 @@ msgstr ""
 #. module: account_asset_management
 #: model:ir.model,name:account_asset_management.model_account_account
 msgid "Account"
-msgstr ""
+msgstr "Cuenta"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -307,7 +307,7 @@ msgstr ""
 #. module: account_asset_management
 #: field:account.asset.recompute.trigger,state:0
 msgid "State"
-msgstr ""
+msgstr "Estado"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0 view:asset.asset.report:0
@@ -627,7 +627,7 @@ msgstr ""
 #: selection:account.asset.history,method_period:0
 #: selection:asset.modify,method_period:0
 msgid "Month"
-msgstr ""
+msgstr "Mes"
 
 #. module: account_asset_management
 #: view:account.asset.asset:0
@@ -676,7 +676,7 @@ msgstr "o"
 #. module: account_asset_management
 #: view:account.asset.asset:0
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #. module: account_asset_management
 #: field:account.asset.asset,method_number:0
@@ -930,7 +930,7 @@ msgstr "Cerrar"
 #. module: account_asset_management
 #: selection:account.asset.recompute.trigger,state:0
 msgid "Open"
-msgstr ""
+msgstr "Abierto"
 
 #. module: account_asset_management
 #: field:account.asset.asset,move_line_check:0

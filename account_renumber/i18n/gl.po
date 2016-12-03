@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 09:14+0000\n"
-"PO-Revision-Date: 2015-06-03 16:41+0000\n"
+"POT-Creation-Date: 2016-09-30 23:40+0000\n"
+"PO-Revision-Date: 2016-11-22 16:22+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Galician (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr ""
 #. module: account_renumber
 #: view:wizard.renumber:0
 msgid "General Data"
-msgstr ""
+msgstr "Datos xerais"
 
 #. module: account_renumber
 #: code:addons/account_renumber/wizard/wizard_renumber.py:137
@@ -106,13 +106,13 @@ msgstr "Asentos contables renumerados"
 #. module: account_renumber
 #: view:wizard.renumber:0
 msgid "This wizard will help you renumber entries in one or more journals."
-msgstr ""
+msgstr "Este asistente axudaralle a renumerar entradas nun ou máis diarios."
 
 #. module: account_renumber
 #: code:addons/account_renumber/wizard/wizard_renumber.py:89
 #, python-format
 msgid "No records found for your selection!"
-msgstr ""
+msgstr "¡Non se atoparon rexistros para a súa selección!"
 
 #. module: account_renumber
 #: view:wizard.renumber:0 field:wizard.renumber,period_ids:0
@@ -132,4 +132,4 @@ msgstr "As secuencias dos diarios empezarán a contar neste número"
 #. module: account_renumber
 #: view:wizard.renumber:0
 msgid "or"
-msgstr ""
+msgstr "ou"
