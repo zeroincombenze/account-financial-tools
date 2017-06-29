@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-30 23:40+0000\n"
+"POT-Creation-Date: 2017-05-05 22:23+0000\n"
 "PO-Revision-Date: 2015-06-03 16:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Finnish (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/fi/)\n"
@@ -123,7 +123,7 @@ msgstr ""
 #. module: account_credit_control
 #: selection:credit.control.policy.level,computation_mode:0
 msgid "Due Date"
-msgstr ""
+msgstr "Eräpäivä"
 
 #. module: account_credit_control
 #: field:credit.control.communication,current_policy_level:0
@@ -319,7 +319,7 @@ msgstr ""
 #. module: account_credit_control
 #: view:credit.control.printer:0
 msgid "Print"
-msgstr ""
+msgstr "Tulosta"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_1
@@ -337,7 +337,7 @@ msgstr ""
 #: selection:credit.control.line,channel:0
 #: selection:credit.control.policy.level,channel:0
 msgid "Email"
-msgstr ""
+msgstr "Sähköposti"
 
 #. module: account_credit_control
 #: view:credit.control.line:0 field:credit.control.line,channel:0
@@ -363,7 +363,7 @@ msgstr ""
 #: code:addons/account_credit_control/line.py:286
 #, python-format
 msgid "Error !"
-msgstr ""
+msgstr "Virhe!"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_2
@@ -500,7 +500,7 @@ msgstr ""
 #: report:addons/account_credit_control/report/credit_control_summary.html.mako:215
 #: field:credit.control.line,currency_id:0
 msgid "Currency"
-msgstr ""
+msgstr "Valuutta"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_printer
@@ -517,7 +517,7 @@ msgstr ""
 #: field:credit.control.line,company_id:0
 #: field:credit.control.policy,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Yritys"
 
 #. module: account_credit_control
 #: view:credit.control.line:0
@@ -650,7 +650,7 @@ msgstr ""
 #. module: account_credit_control
 #: field:credit.control.policy,active:0
 msgid "Active"
-msgstr ""
+msgstr "Aktiivinen"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,help:account_credit_control.open_credit_line_printer_wizard
@@ -702,7 +702,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Yritykset"
 
 #. module: account_credit_control
 #: code:addons/account_credit_control/policy.py:250
@@ -743,7 +743,7 @@ msgstr ""
 #: view:credit.control.line:0 selection:credit.control.line,state:0
 #, python-format
 msgid "Error"
-msgstr ""
+msgstr "Virhe"
 
 #. module: account_credit_control
 #: code:addons/account_credit_control/run.py:162
@@ -831,7 +831,7 @@ msgstr "Valmis"
 #: view:credit.control.line:0 field:credit.control.line,invoice_id:0
 #: model:ir.model,name:account_credit_control.model_account_invoice
 msgid "Invoice"
-msgstr ""
+msgstr "Lasku"
 
 #. module: account_credit_control
 #: view:credit.control.emailer:0 view:credit.control.marker:0
@@ -1051,7 +1051,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_mail_mail
 msgid "Outgoing Mails"
-msgstr ""
+msgstr "Lähtevät postit"
 
 #. module: account_credit_control
 #: code:addons/account_credit_control/wizard/credit_control_policy_changer.py:68
@@ -1103,7 +1103,7 @@ msgstr ""
 #: view:credit.control.emailer:0 view:credit.control.marker:0
 #: view:credit.control.policy.changer:0
 msgid "or"
-msgstr ""
+msgstr "tai"
 
 #. module: account_credit_control
 #: view:credit.control.policy:0

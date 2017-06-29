@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: account-financial-tools (7.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-09 23:16+0000\n"
+"POT-Creation-Date: 2017-02-24 23:15+0000\n"
 "PO-Revision-Date: 2015-06-03 16:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/oca/OCA-account-financial-tools-7-0/language/pt_PT/)\n"
@@ -222,7 +222,7 @@ msgstr ""
 #: field:credit.control.line,partner_id:0
 #: model:ir.model,name:account_credit_control.model_res_partner
 msgid "Partner"
-msgstr ""
+msgstr "Parceiro"
 
 #. module: account_credit_control
 #: view:credit.control.policy.changer:0
@@ -402,7 +402,7 @@ msgstr ""
 #. module: account_credit_control
 #: field:credit.control.run,report:0
 msgid "Report"
-msgstr ""
+msgstr "Relatório"
 
 #. module: account_credit_control
 #: field:credit.control.line,state:0 field:credit.control.run,state:0
@@ -634,7 +634,7 @@ msgstr ""
 #. module: account_credit_control
 #: field:credit.control.communication,user_id:0
 msgid "User"
-msgstr ""
+msgstr "Utilizador"
 
 #. module: account_credit_control
 #: selection:credit.control.line,channel:0
@@ -743,7 +743,7 @@ msgstr ""
 #: view:credit.control.line:0 selection:credit.control.line,state:0
 #, python-format
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 #. module: account_credit_control
 #: code:addons/account_credit_control/run.py:162
@@ -825,7 +825,7 @@ msgstr ""
 #: selection:credit.control.line,state:0
 #: selection:credit.control.marker,name:0 selection:credit.control.run,state:0
 msgid "Done"
-msgstr ""
+msgstr "Concluído"
 
 #. module: account_credit_control
 #: view:credit.control.line:0 field:credit.control.line,invoice_id:0
