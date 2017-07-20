@@ -24,7 +24,7 @@
 
 from openerp.osv import fields, orm
 from openerp.tools.translate import _
-import openerp.addons.decimal_precision as dp
+import decimal_precision as dp
 
 
 class account_check_deposit(orm.Model):

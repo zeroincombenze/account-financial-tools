@@ -27,7 +27,7 @@ from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 from openerp.osv import fields, orm
-from openerp.addons.decimal_precision import decimal_precision as dp
+from decimal_precision import decimal_precision as dp
 from openerp import tools
 from openerp.tools.translate import _
 from openerp import SUPERUSER_ID
