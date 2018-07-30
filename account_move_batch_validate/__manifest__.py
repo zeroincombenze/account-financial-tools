@@ -16,6 +16,6 @@
         'views/account_move.xml',
         'wizard/account_move_validate.xml',
     ],
-    'installable': True,
+    'installable': False,
     'license': 'AGPL-3',
 }
