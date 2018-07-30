@@ -1,7 +1,15 @@
-![Licence](https://img.shields.io/badge/licence-AGPL--3-blue.svg)
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/92/10.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-financial-tools-92)
-[![Build Status](https://travis-ci.org/OCA/account-financial-tools.svg?branch=10.0)](https://travis-ci.org/OCA/account-financial-tools)
-[![Coverage Status](https://coveralls.io/repos/OCA/account-financial-tools/badge.svg?branch=10.0)](https://coveralls.io/r/OCA/account-financial-tools?branch=10.0)
+[![Build Status](https://travis-ci.org/zeroincombenze/account-financial-tools.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/account-financial-tools)
+[![license lgpl](https://img.shields.io/badge/licence-LGPL--3-7379c3.svg)](https://www.gnu.org/licenses/lgpl.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/account-financial-tools/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/account-financial-tools?branch=10.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/account-financial-tools/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/FI)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
 
 Account financial Tools for Odoo/OpenERP
 ========================================
