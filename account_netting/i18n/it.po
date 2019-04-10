@@ -6,41 +6,42 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo (10.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-03 03:46+0000\n"
 "PO-Revision-Date: 2017-12-03 03:46+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
-"Language: it\n"
+"Last-Translator: Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>\n"
+"Language-Team: Zeroincombenze (https://www.zeroincombenze.it)\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:72
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:72
 msgid "AR/AP netting"
 msgstr ""
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:41
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:41
 msgid "All entries must have a receivable or payable account"
 msgstr ""
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:44
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:44
 msgid "All entries mustn't been reconciled"
 msgstr ""
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:56
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:56
 msgid ""
-"All entries should have a partner and the partner must be the same for all."
+"All entries should have a partner and the partner must be the same for "
+"all."
 msgstr ""
 
 #. module: account_netting
@@ -77,12 +78,12 @@ msgstr "Creato da"
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "Data di creazione"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_display_name
 msgid "Display Name"
-msgstr "Nome da visualizzare"
+msgstr "Nome visualizzato"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_id
@@ -97,17 +98,17 @@ msgstr ""
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting___last_update
 msgid "Last Modified on"
-msgstr "Ultima modifica il"
+msgstr "Data ultima modifica"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultima modifica di"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Data ultima modifica"
 
 #. module: account_netting
 #: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting_move_line_ids
@@ -121,7 +122,7 @@ msgstr ""
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:47
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:47
 msgid ""
 "The 'Compensate' function is intended to balance operations on different "
 "accounts for the same partner.\n"
@@ -133,23 +134,25 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
 msgid ""
 "This operation will generate account entries that are counterpart of the "
-"receivable/payable accounts selected, and reconcile each other, letting this "
-"balance in the partner:"
+"receivable/payable accounts selected, and reconcile each other, letting "
+"this balance in the partner:"
 msgstr ""
 
 #. module: account_netting
 #: selection:account.move.make.netting,balance_type:0
+#: selection:account.move.make.netting,balance_type
 msgid "To pay"
 msgstr ""
 
 #. module: account_netting
 #: selection:account.move.make.netting,balance_type:0
+#: selection:account.move.make.netting,balance_type
 msgid "To receive"
 msgstr ""
 
 #. module: account_netting
 #: code:addons/account_netting/wizards/account_move_make_netting.py:35
-#, python-format
+#: code:addons/account_netting/wizards/account_move_make_netting.py:35
 msgid "You should compensate at least 2 journal entries."
 msgstr ""
 
@@ -157,3 +160,5 @@ msgstr ""
 #: model:ir.model,name:account_netting.model_account_move_make_netting
 msgid "account.move.make.netting"
 msgstr ""
+
+

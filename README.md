@@ -1,15 +1,7 @@
-[![Build Status](https://travis-ci.org/zeroincombenze/account-financial-tools.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/account-financial-tools)
-[![license lgpl](https://img.shields.io/badge/licence-LGPL--3-7379c3.svg)](https://www.gnu.org/licenses/lgpl.html)
-[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/account-financial-tools/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/account-financial-tools?branch=10.0)
-[![codecov](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/10.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/account-financial-tools/tree/10.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/FI)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
-
-
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
-
+![Licence](https://img.shields.io/badge/licence-AGPL--3-blue.svg)
+[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/92/10.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-account-financial-tools-92)
+[![Build Status](https://travis-ci.org/OCA/account-financial-tools.svg?branch=10.0)](https://travis-ci.org/OCA/account-financial-tools)
+[![Coverage Status](https://coveralls.io/repos/OCA/account-financial-tools/badge.svg?branch=10.0)](https://coveralls.io/r/OCA/account-financial-tools?branch=10.0)
 
 Account financial Tools for Odoo/OpenERP
 ========================================
@@ -34,17 +26,22 @@ addon | version | summary
 --- | --- | ---
 [account_asset_depr_line_cancel](account_asset_depr_line_cancel/) | 10.0.1.0.0 | Assets Management - Cancel button
 [account_asset_disposal](account_asset_disposal/) | 10.0.2.0.0 | Makes asset close account move automatically
+[account_asset_management](account_asset_management/) | 10.0.3.1.0 | Assets Management
+[account_asset_management_import](account_asset_management_import/) | 10.0.1.0.0 | Fixed Assets import
+[account_asset_management_method_number_end](account_asset_management_method_number_end/) | 10.0.1.0.0 | Financial asset management - method Number & End
+[account_asset_management_xls](account_asset_management_xls/) | 10.0.1.0.0 | Assets Management Excel reporting
 [account_balance_line](account_balance_line/) | 10.0.1.0.0 | Display balance totals in move line view
-[account_chart_update](account_chart_update/) | 10.0.1.0.1 | Wizard to update a company's account chart from a template
+[account_chart_update](account_chart_update/) | 10.0.3.1.0 | Wizard to update a company's account chart from a template
 [account_check_deposit](account_check_deposit/) | 10.0.1.0.0 | Manage deposit of checks to the bank
-[account_credit_control](account_credit_control/) | 10.0.1.3.4 | Account Credit Control
+[account_credit_control](account_credit_control/) | 10.0.1.4.4 | Account Credit Control
 [account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 10.0.1.0.0 | Credit control dunning fees
 [account_fiscal_month](account_fiscal_month/) | 10.0.1.0.0 | Provide a fiscal month date range type
 [account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 10.0.1.0.0 | Check VAT on invoice validation
-[account_fiscal_year](account_fiscal_year/) | 10.0.1.0.0 | Account Fiscal Year
+[account_fiscal_year](account_fiscal_year/) | 10.0.1.0.1 | Account Fiscal Year
+[account_group](account_group/) | 10.0.1.0.0 | Use v11 account groups feature
 [account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 10.0.1.0.0 | Account Invoice Constraint Chronology
 [account_invoice_currency](account_invoice_currency/) | 10.0.1.1.1 | Company currency in invoices
-[account_invoice_tax_required](account_invoice_tax_required/) | 10.0.1.0.1 | Tax required in invoice
+[account_invoice_tax_required](account_invoice_tax_required/) | 10.0.1.0.2 | Tax required in invoice
 [account_journal_lock_date](account_journal_lock_date/) | 10.0.1.0.0 | Lock each journal independently
 [account_lock_date_update](account_lock_date_update/) | 10.0.1.0.0 | Allow an Account adviser to update locking date without having access to all technical settings
 [account_move_batch_validate](account_move_batch_validate/) | 10.0.1.0.0 | Account Move Batch Validate
@@ -73,8 +70,6 @@ Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[account_asset_management](account_asset_management/) | 8.0.2.6.0 (unported) | Assets Management
-[account_asset_management_xls](account_asset_management_xls/) | 8.0.0.1.0 (unported) | Assets Management Excel reporting
 [account_cancel_invoice_check_payment_order](account_cancel_invoice_check_payment_order/) | 1.0 (unported) | Cancel invoice, check on payment order
 [account_cancel_invoice_check_voucher](account_cancel_invoice_check_voucher/) | 1.0 (unported) | Cancel invoice, check on bank statement
 [account_constraints](account_constraints/) | 8.0.1.1.0 (unported) | Account Constraints

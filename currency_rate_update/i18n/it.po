@@ -6,17 +6,17 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo (10.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-04-27 00:40+0000\n"
 "PO-Revision-Date: 2017-04-27 00:40+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
-"Language: it\n"
+"Last-Translator: Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>\n"
+"Language-Team: Zeroincombenze (https://www.zeroincombenze.it)\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #. module: currency_rate_update
 #: model:ir.ui.view,arch_db:currency_rate_update.view_account_config_settings
@@ -38,7 +38,7 @@ msgstr ""
 #. module: currency_rate_update
 #: model:ir.model,name:currency_rate_update.model_res_company
 msgid "Companies"
-msgstr "Azienda"
+msgstr "Aziende"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_company_id
@@ -53,7 +53,7 @@ msgstr "Creato da"
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "Data di creazione"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_currency_list
@@ -85,28 +85,32 @@ msgstr ""
 
 #. module: currency_rate_update
 #: selection:currency.rate.update.service,interval_type:0
+#: selection:currency.rate.update.service,interval_type
 msgid "Day(s)"
 msgstr ""
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_display_name
 msgid "Display Name"
-msgstr "Nome da visualizzare"
+msgstr "Nome visualizzato"
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/services/update_service_CA_BOC.py:71
 #: code:addons/currency_rate_update/services/update_service_CA_BOC.py:92
-#, python-format
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:71
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:92
 msgid "Error !"
 msgstr ""
 
 #. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:73
 #: code:addons/currency_rate_update/services/update_service_CA_BOC.py:73
 #, python-format
 msgid "Exchange data for %s is not reported by Bank of Canada."
 msgstr ""
 
 #. module: currency_rate_update
+#: code:addons/currency_rate_update/services/update_service_CA_BOC.py:94
 #: code:addons/currency_rate_update/services/update_service_CA_BOC.py:94
 #, python-format
 msgid "Exchange data format error for Bank of Canada - %s !"
@@ -126,38 +130,39 @@ msgstr "ID"
 #: model:ir.model.fields,help:currency_rate_update.field_currency_rate_update_service_max_delta_days
 msgid ""
 "If the time delta between the rate date given by the webservice and the "
-"current date exceeds this value, then the currency rate is not updated in "
-"Odoo."
+"current date exceeds this value, then the currency rate is not updated in"
+" Odoo."
 msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/models/currency_rate_update.py:145
+#: code:addons/currency_rate_update/models/currency_rate_update.py:145
 #, python-format
 msgid ""
-"In company '%s', the rate of the main currency (%s) must be 1.00 (current "
-"rate: %s)."
+"In company '%s', the rate of the main currency (%s) must be 1.00 (current"
+" rate: %s)."
 msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/models/currency_rate_update.py:48
-#, python-format
+#: code:addons/currency_rate_update/models/currency_rate_update.py:48
 msgid "Interval number must be >= 0"
 msgstr ""
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service___last_update
 msgid "Last Modified on"
-msgstr "Ultima modifica il"
+msgstr "Data ultima modifica"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultima modifica di"
 
 #. module: currency_rate_update
 #: model:ir.model.fields,field_description:currency_rate_update.field_currency_rate_update_service_write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Data ultima modifica"
 
 #. module: currency_rate_update
 #: model:ir.ui.view,arch_db:currency_rate_update.currency_rate_update_form
@@ -171,12 +176,13 @@ msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/models/currency_rate_update.py:40
-#, python-format
+#: code:addons/currency_rate_update/models/currency_rate_update.py:40
 msgid "Max delta days must be >= 0"
 msgstr ""
 
 #. module: currency_rate_update
 #: selection:currency.rate.update.service,interval_type:0
+#: selection:currency.rate.update.service,interval_type
 msgid "Month(s)"
 msgstr ""
 
@@ -193,7 +199,7 @@ msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/services/currency_getter_interface.py:147
-#, python-format
+#: code:addons/currency_rate_update/services/currency_getter_interface.py:147
 msgid "Unable to import urllib."
 msgstr ""
 
@@ -209,6 +215,7 @@ msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/services/currency_getter_interface.py:150
+#: code:addons/currency_rate_update/services/currency_getter_interface.py:150
 #, python-format
 msgid "Web Service does not exist (%s)!"
 msgstr ""
@@ -220,13 +227,15 @@ msgstr ""
 
 #. module: currency_rate_update
 #: selection:currency.rate.update.service,interval_type:0
+#: selection:currency.rate.update.service,interval_type
 msgid "Week(s)"
 msgstr ""
 
 #. module: currency_rate_update
 #: code:addons/currency_rate_update/models/currency_rate_update.py:124
 #: sql_constraint:currency.rate.update.service:0
-#, python-format
+#: code:addons/currency_rate_update/models/currency_rate_update.py:124
+#: sql_constraint:currency.rate.update.service
 msgid "You can use a service only one time per company !"
 msgstr ""
 
@@ -234,3 +243,5 @@ msgstr ""
 #: model:ir.model,name:currency_rate_update.model_account_config_settings
 msgid "account.config.settings"
 msgstr ""
+
+

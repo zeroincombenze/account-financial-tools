@@ -6,22 +6,22 @@
 # OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo (10.0)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 23:24+0000\n"
 "PO-Revision-Date: 2017-11-28 23:24+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Italian (https://www.transifex.com/oca/teams/23907/it/)\n"
-"Language: it\n"
+"Last-Translator: Antonio M. Vigliotti <antoniomaria.vigliotti@gmail.com>\n"
+"Language-Team: Zeroincombenze (https://www.zeroincombenze.it)\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
 
 #. module: account_tag_category
 #: model:ir.model,name:account_tag_category.model_account_account
 msgid "Account"
-msgstr ""
+msgstr "Conto"
 
 #. module: account_tag_category
 #: model:ir.model,name:account_tag_category.model_account_account_tag
@@ -51,6 +51,7 @@ msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,applicability:0
+#: selection:account.account.tag.category,applicability
 msgid "Accounts"
 msgstr ""
 
@@ -61,11 +62,13 @@ msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Aquamarine"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Blue"
 msgstr ""
 
@@ -76,7 +79,7 @@ msgstr ""
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_color
-#: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_color_4056
+#: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_color_5289
 msgid "Color Index"
 msgstr ""
 
@@ -90,10 +93,11 @@ msgstr "Creato da"
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_create_date
 #: model:ir.model.fields,field_description:account_tag_category.field_account_tag_category_update_tags_create_date
 msgid "Created on"
-msgstr "Creato il"
+msgstr "Data di creazione"
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Cyan"
 msgstr ""
 
@@ -101,7 +105,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_display_name
 #: model:ir.model.fields,field_description:account_tag_category.field_account_tag_category_update_tags_display_name
 msgid "Display Name"
-msgstr "Nome da visualizzare"
+msgstr "Nome visualizzato"
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_enforce_policy
@@ -110,14 +114,16 @@ msgstr ""
 
 #. module: account_tag_category
 #: code:addons/account_tag_category/models/account.py:131
+#: code:addons/account_tag_category/models/account.py:131
 #, python-format
 msgid ""
-"Following tag categories are set as required, but there is no tag from these "
-"categories : \n"
+"Following tag categories are set as required, but there is no tag from "
+"these categories : \n"
 " %s"
 msgstr ""
 
 #. module: account_tag_category
+#: code:addons/account_tag_category/wizard/update_tags_wizard.py:39
 #: code:addons/account_tag_category/wizard/update_tags_wizard.py:39
 #, python-format
 msgid ""
@@ -127,11 +133,13 @@ msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Green"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Grey"
 msgstr ""
 
@@ -144,27 +152,27 @@ msgstr "ID"
 #. module: account_tag_category
 #: model:ir.model.fields,help:account_tag_category.field_account_account_tag_category_enforce_policy
 msgid ""
-"If required, this option enforces the use of a tag from this category. If "
-"optional, the user is not required to use a tag from this category."
+"If required, this option enforces the use of a tag from this category. If"
+" optional, the user is not required to use a tag from this category."
 msgstr ""
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category___last_update
 #: model:ir.model.fields,field_description:account_tag_category.field_account_tag_category_update_tags___last_update
 msgid "Last Modified on"
-msgstr "Ultima modifica il"
+msgstr "Data ultima modifica"
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_write_uid
 #: model:ir.model.fields,field_description:account_tag_category.field_account_tag_category_update_tags_write_uid
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "Ultima modifica di"
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_write_date
 #: model:ir.model.fields,field_description:account_tag_category.field_account_tag_category_update_tags_write_date
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "Data ultima modifica"
 
 #. module: account_tag_category
 #: model:ir.model.fields,field_description:account_tag_category.field_account_account_tag_category_name
@@ -173,31 +181,37 @@ msgstr "Nome"
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,enforce_policy:0
+#: selection:account.account.tag.category,enforce_policy
 msgid "Optional"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Orange"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Pink"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Purple"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Red"
 msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,enforce_policy:0
+#: selection:account.account.tag.category,enforce_policy
 msgid "Required"
 msgstr ""
 
@@ -207,6 +221,7 @@ msgid "Save tags"
 msgstr ""
 
 #. module: account_tag_category
+#: code:addons/account_tag_category/models/account.py:85
 #: code:addons/account_tag_category/models/account.py:85
 #, python-format
 msgid "Selected tag must be applicable on the same model as this category (%s)"
@@ -242,7 +257,7 @@ msgstr ""
 
 #. module: account_tag_category
 #: code:addons/account_tag_category/models/account.py:112
-#, python-format
+#: code:addons/account_tag_category/models/account.py:112
 msgid "There is more than one tag from the same category which is used"
 msgstr ""
 
@@ -264,5 +279,8 @@ msgstr ""
 
 #. module: account_tag_category
 #: selection:account.account.tag.category,color_picker:0
+#: selection:account.account.tag.category,color_picker
 msgid "Yellow"
 msgstr ""
+
+

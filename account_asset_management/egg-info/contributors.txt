@@ -1,0 +1,4 @@
+* Luc De Meyer (Noviat)
+* Frédéric Clementi (camptocamp)
+* Florian Dacosta (Akretion)
+* Stéphane Bidoul (Acsone)

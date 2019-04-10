@@ -35,7 +35,7 @@ class RoBnrGetter(CurrencyGetterInterface):
         try:
             res['rate_ref'] = float(dom.xpath(xpath_rate_ref,
                                               namespaces=ns)[0])
-        except:
+        except BaseException:
             res['rate_ref'] = 1
         return res
 
