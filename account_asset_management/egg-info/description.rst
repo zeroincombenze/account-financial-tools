@@ -1,6 +1,3 @@
-Financial asset management.
----------------------------
-
 This Module manages the assets owned by a company. It will keep
 track of depreciation's occurred on those assets. And it allows to create
 accounting entries from the depreciation lines.
