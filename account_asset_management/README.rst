@@ -1,7 +1,7 @@
 
-========================
-|icon| Assets Management
-========================
+===================================
+|icon| Assets Management 10.0.2.6.0
+===================================
 
 
 .. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/account-financial-tools/10.0/account_asset_management/static/description/icon.png
@@ -14,10 +14,7 @@
 Overview / Panoramica
 =====================
 
-|en| Financial asset management.
----------------------------
-
-This Module manages the assets owned by a company. It will keep
+|en| This Module manages the assets owned by a company. It will keep
 track of depreciation's occurred on those assets. And it allows to create
 accounting entries from the depreciation lines.
 
@@ -41,16 +38,17 @@ the standard account_asset module from Odoo.
 Usage / Utilizzo
 ----------------
 
-It is recommended to configure your Purchase Journal with "Group Invoice Lines" to avoid the
-creation of separate assets per Supplier Invoice Line.
+The module in NOT compatible with the standard account_asset module.
+
 
 |
 
 OCA comparation / Confronto con OCA
 -----------------------------------
 
+
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
-| Description / Descrizione                                       | Odoo Italia       | OCA                   | Notes / Note                   |
+| Description / Descrizione                                       | Zeroincombenze    | OCA                   | Notes / Note                   |
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
 | Coverage / Copertura test                                       |  |Codecov Status| | |OCA Codecov Status|  | |OCA project|                  |
 +-----------------------------------------------------------------+-------------------+-----------------------+--------------------------------+
@@ -193,10 +191,36 @@ Authors / Autori
 Contributors / Collaboratori
 ----------------------------
 
-* Luc De Meyer (Noviat)
-* Frédéric Clementi (camptocamp)
-* Florian Dacosta (Akretion)
-* Stéphane Bidoul (Acsone)
+- OpenERP SA
+- Luc De Meyer (Noviat)
+- Frédéric Clementi (camptocamp)
+- Florian Dacosta (Akretion)
+- Stéphane Bidoul (Acsone)
+- Adrien Peiffer (Acsone)
+- Akim Juillerat <akim.juillerat@camptocamp.com>
+
+
+Acknowledges / Riconoscimenti
+-----------------------------
+
++-----------------------------------+-------------------------------------------+
+| |en|                              | |it|                                      |
++-----------------------------------+-------------------------------------------+
+| This software inherits from past  | Questo software eredita da versioni       |
+| versions some parts of code. Even | passate alcune parti di codice. Anche     |
+| if people did not actively        | se non hanno partecipato attivamente allo |
+| participate to development, we    | allo sviluppo, noi siamo grati a tutte le |
+| acknowledge them for their prior  | persone che precedentemente vi hanno      |
+| contributions.                    | contribuito.                              |
++-----------------------------------+-------------------------------------------+
+
+- OpenERP SA
+- Luc De Meyer (Noviat)
+- Frédéric Clementi (camptocamp)
+- Florian Dacosta (Akretion)
+- Stéphane Bidoul (Acsone)
+- Adrien Peiffer (Acsone)
+- Akim Juillerat <akim.juillerat@camptocamp.com>
 
 |
 
@@ -208,9 +232,9 @@ which distributes and promotes ready-to-use **Odoo** on own cloud infrastructure
 `Zeroincombenze® distribution of Odoo <https://wiki.zeroincombenze.org/en/Odoo>`__
 is mainly designed to cover Italian law and markeplace.
 
-|it| **zeroincombenze®** è un marchio registrato di `SHS-AV s.r.l. <https://www.shs-av.com/>`__
-che distribuisce e promuove **Odoo** pronto all'uso sullla propria infrastuttura.
-La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato italiano.
+|it| **zeroincombenze®** è un marchio registrato da `SHS-AV s.r.l. <https://www.shs-av.com/>`__
+che distribuisce e promuove **Odoo** pronto all'uso sulla propria infrastuttura.
+La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ è progettata per le esigenze del mercato italiano.
 
 
 |chat_with_us|
@@ -218,7 +242,9 @@ La distribuzione `Zeroincombenze® è progettata per le esigenze del mercato ita
 
 |
 
-Last Update / Ultimo aggiornamento: 2019-03-30
+This module is part of account-financial-tools project.
+
+Last Update / Ultimo aggiornamento: 2019-04-13
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status

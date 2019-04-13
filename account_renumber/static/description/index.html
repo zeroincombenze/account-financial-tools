@@ -2,21 +2,27 @@
 <section class="oe_container">
     <div class="oe_row oe_spaced">
         <div class="oe_span12">
-            <h2 class="oe_slogan" style="color:#162832;">Tax analysis / Odoo &#232; una suite di prodotti web open-source.</h2>
+            <h2 class="oe_slogan" style="color:#162832;">Account Renumber Wizard / Odoo &#232; una suite di prodotti web open-source.</h2>
         </div>
         <div class="oe_span6">
             <p align="center">
                 <img src="https://raw.githubusercontent.com/zeroincombenze/grymb/master/flags/en_US.png" alt="English"/>
             </p>
 <p align="justify">
-            &lt;p class="oe_mt16" align="justify"&gt;This add-on is a must if you want to be able to validate your VAT form.
+            &lt;p class="oe_mt16" align="justify"&gt;This module extends the functionality of accounting to allow the accounting
+manager to renumber account moves by date only for admin.
 </p><p align="justify">
-Thanks to a new menu 'Invoicing / Reports / Taxes Analysis'
-you are able to group accounting entries by Taxes (VAT codes)
-and/or financial accounts.
+The wizard, which is accesible from the "End of Period" menuitem,
+lets you select journals, periods, and a starting number. When
+launched, it renumbers all posted moves that match selected criteria
+(after ordering them by date).
 </p><p align="justify">
-This way you will find easily differences you may see between
-the Odoo tax report and what you see in your books.
+It will recreate the sequence number for each account move
+using its journal sequence, which means that:
+</p><p align="justify">
+- Sequences per journal are supported.
+- Sequences with prefixes and suffixes based on the move date are also
+  supported.
 &lt;/p&gt;
 </p>
         </div>
@@ -60,6 +66,30 @@ Notes / Note:
 </p>
         </div>
     </div>
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan" style="color:#162832;">Usage / Utilizzo</h3>
+        <div class="oe_span12">
+<p align="justify">
+To use this module, you need to:
+</p><p align="justify">
+#. Be an accounting manager.
+#. Go to *Accounting &gt; Adviser &gt; Renumber journal entries*.
+#. Choose the *First number* of the journal entry that you want. It will be
+   used to start numbering from there on.
+#. Choose the *Starting date* and *Ending date*, to set when you want the
+   process to begin and end.
+#. Choose the journals where you want to perform the renumberings.
+#. Press *Renumber*.
+</p><p align="justify">
+Now, the wizard will locate all journal entries found in those journals and
+dates, and start numbering them without gaps in a sequential order that starts
+with the *First number* you chose and matches the entry date order.
+</p><p align="justify">
+If no matches are found, you will be alerted. Otherwise, you will be redirected
+to a view of all the entries that have been renumbered.
+</p>
+        </div>
+    </div>
 </section>
 
 <section class="oe_container oe_separator"/>
@@ -75,10 +105,15 @@ Notes / Note:
         <div class="oe_span6" align="left">
             <p class="oe_mt16">Contributors / Collaboratori:</p>
 <p align="justify">
-            &lt;p class="oe_mt16"&gt;* Vincent Renaville (Camptocamp SA) &lt;vincent.renaville@camptocamp.com&gt;
+            &lt;p class="oe_mt16"&gt;* Jordi Llinares
 <ul>
-<li>Denis Robinet (ACSONE SA/NV) &lt;denis.robinet@acsone.eu&gt;</li>
+<li>`Joaqu&#237;n Guti&#233;rrez &lt;http://www.gutierrezweb.es&gt;`_</li>
+<li>`Tecnativa &lt;https://www.tecnativa.com&gt;`_:</li>
 </ul>
+</p><p align="justify">
+  * Pedro M. Baeza
+  * Jairo Llopis
+  * David Vidal
 &lt;/p&gt;
 </p>
         </div>
