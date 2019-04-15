@@ -1,10 +1,12 @@
 
-=========================================
-|icon| Account Renumber Wizard 10.0.1.0.1
-=========================================
+=====================================
+|icon| Groups for accounts 10.0.1.0.0
+=====================================
 
 
-.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/account-financial-tools/10.0/account_renumber/static/description/icon.png
+**Use v11 account groups feature**
+
+.. |icon| image:: https://raw.githubusercontent.com/zeroincombenze/account-financial-tools/10.0/account_group/static/description/icon.png
 
 |Maturity| |Build Status| |Coverage Status| |Codecov Status| |license gpl| |Tech Doc| |Help| |Try Me|
 
@@ -14,79 +16,32 @@
 Overview / Panoramica
 =====================
 
-|en| This module extends the functionality of accounting to allow the accounting
-manager to renumber account moves by date only for admin.
+|en| account_group
+------------------
 
-The wizard, which is accesible from the "End of Period" menuitem,
-lets you select journals, periods, and a starting number. When
-launched, it renumbers all posted moves that match selected criteria
-(after ordering them by date).
+This modules brings to version 10 the account group feature from v11.
 
-It will recreate the sequence number for each account move
-using its journal sequence, which means that:
-
-- Sequences per journal are supported.
-- Sequences with prefixes and suffixes based on the move date are also
-  supported.
+It also includes a level field for indicating the level depth of the account
+group.
 
 
 |
 
-|it| Odoo è una suite di prodotti web open-source.
+|it| account_group
+------------------
 
-Le principali applicazioni di Odoo includono un Open Source CRM e Enterprise Resource Planning.
-I principali moduli ERP sono: gestione Magazzino, gestione Progetti, Contabilità e Fatturazione, Punto vendite, Dipendenti, Produzione, gestione Acquisti, gestione vendite e molto altro ancora.
-
-
-Distributions / Distribuzioni Odoo 10.0:
-========================================
-
-
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| name / nome | description / descrizione        | Italy / Localizzazione Italiana    | Maintainers                                                  | License / Licenza |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-|             | Odoo EE - Enterprise Edition     | |check| Tramite partner        (1) | `Odoo S.A. <https://www.odoo.com/>`__                        | |license opl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| odoo        | Odoo CE - Community Edition      | |no_check|                         | `Odoo S.A. <https://www.odoo.com/>`__                        | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oca         | Odoo CE by OCA                   | |warning| Norme fiscali < 2107 (2) | `Odoo Community Association <http://odoo-community.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oia         | Odoo CE by OIA                   | |warning| Norme fiscali < 2107 (3) | `Associazione Odoo Italia <https://www.odoo-italia.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| zero        | Zeroincombenze(R)                | |warning| Norme fiscali < 2107 (3) | `SHS-AV s.r.l. <http://www.shs-av.com/>`__                   | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-
-Notes / Note:
--------------
-
-1. Localizzazione con supporto a pagamento tramite partner
-2. Manca software per norme fiscali 2017; OCA sta sviluppando il supporto per la Fattura Elettronica B2B
-3. Software per Fattura elettronica B2B in sviluppo
-
-
+Traduzione non disponibile
 
 |
 
 Usage / Utilizzo
 ----------------
 
-To use this module, you need to:
+For assigning groups to accounts:
 
-#. Be an accounting manager.
-#. Go to *Accounting > Adviser > Renumber journal entries*.
-#. Choose the *First number* of the journal entry that you want. It will be
-   used to start numbering from there on.
-#. Choose the *Starting date* and *Ending date*, to set when you want the
-   process to begin and end.
-#. Choose the journals where you want to perform the renumberings.
-#. Press *Renumber*.
+* |menu| Invoicing > Adviser > Chart of Accounts*.
 
-Now, the wizard will locate all journal entries found in those journals and
-dates, and start numbering them without gaps in a sequential order that starts
-with the *First number* you chose and matches the entry date order.
-
-If no matches are found, you will be alerted. Otherwise, you will be redirected
-to a view of all the entries that have been renumbered.
+Edit one account and set "Group" field.
 
 
 |
@@ -155,7 +110,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode 
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **account_renumber** > Install
+* |menu| Setting > Apps |right_do| Select **account_group** > Install
 
 |
 
@@ -180,7 +135,7 @@ From UI: go to:
 
 * |menu| Setting > Activate Developer mode
 * |menu| Apps > Update Apps List
-* |menu| Setting > Apps |right_do| Select **account_renumber** > Update
+* |menu| Setting > Apps |right_do| Select **account_group** > Update
 
 |
 
@@ -230,37 +185,13 @@ Odoo is a trademark of `Odoo S.A. <https://www.odoo.com/>`__ (formerly OpenERP)
 Authors / Autori
 ----------------
 
-* SHS-AV s.r.l. <https://www.zeroincombenze.it/>
+* ``Tecnativa <https://www.tecnativa.com>`_`__
+* ``Odoo Community Association (OCA) <https://odoo-community.org>`_`__
 
 Contributors / Collaboratori
 ----------------------------
 
-* Jordi Llinares
-* `Joaquín Gutiérrez <http://www.gutierrezweb.es>`_
-* `Tecnativa <https://www.tecnativa.com>`_:
-
-  * Pedro M. Baeza
-  * Jairo Llopis
-  * David Vidal
-
-
-Acknowledges / Riconoscimenti
------------------------------
-
-+-----------------------------------+-------------------------------------------+
-| |en|                              | |it|                                      |
-+-----------------------------------+-------------------------------------------+
-| This software inherits from past  | Questo software eredita da versioni       |
-| versions some parts of code. Even | passate alcune parti di codice. Anche     |
-| if people did not actively        | se non hanno partecipato attivamente allo |
-| participate to development, we    | allo sviluppo, noi siamo grati a tutte le |
-| acknowledge them for their prior  | persone che precedentemente vi hanno      |
-| contributions.                    | contribuito.                              |
-+-----------------------------------+-------------------------------------------+
-
-  * Pedro M. Baeza
-  * Jairo Llopis
-  * David Vidal
+* Pedro M. Baeza <pedro.baeza@tecnativa.com>
 
 |
 
