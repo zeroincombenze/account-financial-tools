@@ -11,39 +11,26 @@
 Overview / Panoramica
 =====================
 
-|en| 
+|en| Account Financial Tools
+----------------------------
 
-|it| Odoo è una suite di prodotti web open-source.
+This project aims to make the accounting usage system easy and painless.
+It provides addons to:
 
-Le principali applicazioni di Odoo includono un Open Source CRM e Enterprise Resource Planning.
-I principali moduli ERP sono: gestione Magazzino, gestione Progetti, Contabilità e Fatturazione, Punto vendite, Dipendenti, Produzione, gestione Acquisti, gestione vendite e molto altro ancora.
+ - Update the currency rate automatically via web services
+ - Push credit management and follow up to next level
+ - Generate reversed account moves
+ - Cancel invoices with ease
+ - Force draft accounting by default
+ - Enforce partners on account moves
+
+And much more.
 
 
-Distributions / Distribuzioni Odoo 10.0:
-========================================
+|it| Strumenti finanziari per amministrazione
+---------------------------------------------
 
-
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| name / nome | description / descrizione        | Italy / Localizzazione Italiana    | Maintainers                                                  | License / Licenza |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-|             | Odoo EE - Enterprise Edition     | |check| Tramite partner        (1) | `Odoo S.A. <https://www.odoo.com/>`__                        | |license opl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| odoo        | Odoo CE - Community Edition      | |no_check|                         | `Odoo S.A. <https://www.odoo.com/>`__                        | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oca         | Odoo CE by OCA                   | |warning| Norme fiscali < 2107 (2) | `Odoo Community Association <http://odoo-community.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| oia         | Odoo CE by OIA                   | |warning| Norme fiscali < 2107 (3) | `Associazione Odoo Italia <https://www.odoo-italia.org/>`__  | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-| zero        | Zeroincombenze(R)                | |warning| Norme fiscali < 2107 (3) | `SHS-AV s.r.l. <http://www.shs-av.com/>`__                   | |license gpl|     |
-+-------------+----------------------------------+------------------------------------+--------------------------------------------------------------+-------------------+
-
-Notes / Note:
--------------
-
-1. Localizzazione con supporto a pagamento tramite partner
-2. Manca software per norme fiscali 2017; OCA sta sviluppando il supporto per la Fattura Elettronica B2B
-3. Software per Fattura elettronica B2B in sviluppo
-
+Progetto basato sui moduli OCA Strumenti finanziari per amministrazione
 
 Avaiable Addons / Moduli disponibili
 ------------------------------------
