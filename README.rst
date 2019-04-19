@@ -138,7 +138,7 @@ Avaiable Addons / Moduli disponibili
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 | currency_rate_date_check             | |halt|     | |halt|     | Make sure currency rates used are always up-to-update                            |
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
-| currency_rate_update                 | 10.0.1.0.0 | |same|     | Currency Rate Update                                                             |
+| currency_rate_update                 | |halt|     | |same|     | Currency Rate Update                                                             |
 +--------------------------------------+------------+------------+----------------------------------------------------------------------------------+
 
 
@@ -271,7 +271,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 |
 
 
-Last Update / Ultimo aggiornamento: 2019-04-15
+Last Update / Ultimo aggiornamento: 2019-04-19
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
