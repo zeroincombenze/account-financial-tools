@@ -1,9 +1,9 @@
 Account Fiscal Year
 -------------------
 
-This module extends `date.range.type` to add `fiscal_year` flag.
+This module extends date.range.type to add fiscal_year flag.
 
-Override official `res_company.compute_fiscal_year_dates` to get the
+Override official res_company.compute_fiscal_year_dates to get the
 fiscal year date start / date end for any given date.
 That methods first looks for a date range of type fiscal year that
 encloses the give date.

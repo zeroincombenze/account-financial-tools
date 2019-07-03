@@ -17,9 +17,9 @@ Overview / Panoramica
 |en| Account Fiscal Year
 ------------------------
 
-This module extends `date.range.type` to add `fiscal_year` flag.
+This module extends date.range.type to add fiscal_year flag.
 
-Override official `res_company.compute_fiscal_year_dates` to get the
+Override official res_company.compute_fiscal_year_dates to get the
 fiscal year date start / date end for any given date.
 That methods first looks for a date range of type fiscal year that
 encloses the give date.
@@ -209,7 +209,7 @@ La distribuzione `Zeroincombenze® <https://wiki.zeroincombenze.org/en/Odoo>`__ 
 
 This module is part of account-financial-tools project.
 
-Last Update / Ultimo aggiornamento: 2019-04-19
+Last Update / Ultimo aggiornamento: 2019-04-20
 
 .. |Maturity| image:: https://img.shields.io/badge/maturity-Alfa-red.png
     :target: https://odoo-community.org/page/development-status
