@@ -1,95 +1,85 @@
-[![Build Status](https://travis-ci.org/zeroincombenze/account-financial-tools.svg?branch=7.0)](https://travis-ci.org/zeroincombenze/account-financial-tools)
-[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
-[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/account-financial-tools/badge.svg?branch=7.0)](https://coveralls.io/github/zeroincombenze/account-financial-tools?branch=7.0)
-[![codecov](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/7.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/account-financial-tools/branch/7.0)
-[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-7.svg)](https://github.com/OCA/account-financial-tools/tree/7.0)
-[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-7.svg)](http://wiki.zeroincombenze.org/en/Odoo/7.0/dev)
-[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-7.svg)](http://wiki.zeroincombenze.org/en/Odoo/7.0/man/FI)
-[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-7.svg)](http://erp7.zeroincombenze.it)
 
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/account-financial-tools&target_branch=12.0)
+[![Pre-commit Status](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml/badge.svg?branch=12.0)](https://github.com/OCA/account-financial-tools/actions/workflows/pre-commit.yml?query=branch%3A12.0)
+[![Build Status](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml/badge.svg?branch=12.0)](https://github.com/OCA/account-financial-tools/actions/workflows/test.yml?query=branch%3A12.0)
+[![codecov](https://codecov.io/gh/OCA/account-financial-tools/branch/12.0/graph/badge.svg)](https://codecov.io/gh/OCA/account-financial-tools)
+[![Translation Status](https://translation.odoo-community.org/widgets/account-financial-tools-12-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/account-financial-tools-12-0/?utm_source=widget)
 
+<!-- /!\ do not modify above this line -->
 
-[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
-================================================================================================
-================================================================================================
+# Tools for account financial management
 
-Account financial Tools for Odoo
-================================
+Tools to extend financial account management
 
-This project aims to make the accounting usage system easy and painless.
-It provides addons to:
+<!-- /!\ do not modify below this line -->
 
- - Update the currency rate automatically via web services
- - Push credit management and follow up to next level
- - Generate reversed account moves
- - Cancel invoices with ease
- - Force draft accounting by default
- - Enforce partners on account moves
+<!-- prettier-ignore-start -->
 
-Translation Status
-[![Transifex Status](https://www.transifex.com/projects/p/OCA-account-financial-tools-7-0/chart/image_png)](https://www.transifex.com/projects/p/OCA-account-financial-tools-7-0)
-
-And much more.
-And much more.
-
-[//]: # (copyright)
-
-----
-
-**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
-
-**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo features and
-promote its widespread use.
-
-**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
-which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
-[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
-is mainly designed for Italian law and markeplace.
-Everytime, every Odoo DB and customized code can be deployed on local server too.
-
-[//]: # (end copyright)
 [//]: # (addons)
-
 
 Available addons
 ----------------
-addon | version | OCA version | summary
+addon | version | maintainers | summary
 --- | --- | --- | ---
-[account_asset_management](account_asset_management/) | 2.4 | :repeat: | Assets Management
-[account_asset_management_xls](account_asset_management_xls/) | 0.1 | :repeat: | Assets Management Excel reporting
-[account_auto_fy_sequence](account_auto_fy_sequence/) | 0.1 | :repeat: | Automatic Fiscal Year Sequences
-[account_balance_line](account_balance_line/) | 1.1 | :repeat: | Display balance totals in move line view
-[account_cancel_invoice_check_payment_order](account_cancel_invoice_check_payment_order/) | 1.0 | :repeat: | Cancel invoice, check on payment order
-[account_cancel_invoice_check_voucher](account_cancel_invoice_check_voucher/) | 1.0 | :repeat: | Cancel invoice, check on bank statement
-[account_chart_update](account_chart_update/) | 1.2 | :repeat: | Detect changes and update the Account Chart from a template
-[account_check_deposit](account_check_deposit/) | 0.1 | :repeat: | Manage deposit of checks to the bank
-[account_compute_tax_amount](account_compute_tax_amount/) | 1.0 | :repeat: | Recompute tax_amount
-[account_constraints](account_constraints/) | 1.1 | :repeat: | Account Constraints
-[account_credit_control](account_credit_control/) | 0.2.0 | :repeat: | Account Credit Control
-[account_credit_control_dunning_fees](account_credit_control_dunning_fees/) | 0.1.0 | :repeat: | Credit control dunning fees
-[account_default_draft_move](account_default_draft_move/) | 1.0 | :repeat: | Move in draft state by default
-[account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 0.1 | :repeat: | Check VAT on invoice validation
-[account_invoice_currency](account_invoice_currency/) | 1.0 | :repeat: | Company currency in invoices
-[account_journal_always_check_date](account_journal_always_check_date/) | 0.1 | :repeat: | Option Check Date in Period always active on journals
-[account_journal_entry_posted_async](account_journal_entry_posted_async/) | 0.1 | :repeat: | Automatically post account journal entries asynchronously
-[account_journal_period_close](account_journal_period_close/) | 1.0 | :repeat: | Account Journal Period Close
-[account_move_batch_validate](account_move_batch_validate/) | 0.2 | :repeat: | Account Move Batch Validate
-[account_move_line_no_default_search](account_move_line_no_default_search/) | 0.1 | :repeat: | Move line search view - disable defaults for period and journal
-[account_move_line_search_extension](account_move_line_search_extension/) | 0.1 | :repeat: | Journal Items Search Extension
-[account_move_select_reconciliation](account_move_select_reconciliation/) | 0.1 | :repeat: | Account Move Select Reconciliation
-[account_move_template](account_move_template/) | 0.1 | :repeat: | Templates for recurring Journal Entries
-[account_move_validation_improvement](account_move_validation_improvement/) | 1.0 | :repeat: | Wizard to validate multiple moves
-[account_partner_required](account_partner_required/) | 0.1 | :repeat: | Account partner required
-[account_renumber](account_renumber/) | 1.0 | :repeat: | Account renumber wizard
-[account_reversal](account_reversal/) | 1.0 | :repeat: | Account Reversal
-[account_tax_analysis](account_tax_analysis/) | 1.0 | :repeat: | Tax analysis
-[account_tax_update](account_tax_update/) | 7.0.1.0.45 | :repeat: | Update tax wizard
-[async_move_line_importer](async_move_line_importer/) | 0.1.2 | :repeat: | Asynchronous move/move line CSV importer
-[currency_rate_date_check](currency_rate_date_check/) | 1.0 | :repeat: | Make sure currency rates used are always up-to-update
-[currency_rate_update](currency_rate_update/) | 0.8 | :repeat: | Currency Rate Update
-[l10n_fr_siret](l10n_fr_siret/) | 1.1.1 | :repeat: | French company identity numbers SIRET/SIREN/NIC
+[account_asset_batch_compute](account_asset_batch_compute/) | 12.0.1.0.0 |  | Add the possibility to compute assets in batch
+[account_asset_management](account_asset_management/) | 12.0.3.2.0 |  | Assets Management
+[account_balance_line](account_balance_line/) | 12.0.1.0.0 |  | Display balance totals in move line view
+[account_bank_statement_chatter](account_bank_statement_chatter/) | 12.0.1.0.0 | [![cubells](https://github.com/cubells.png?size=30px)](https://github.com/cubells) | Chatter on bank statements
+[account_cash_basis_group_base_line](account_cash_basis_group_base_line/) | 12.0.0.0.1 |  | Tax Cash Basis Group Base Lines
+[account_chart_update](account_chart_update/) | 12.0.1.0.3 |  | Wizard to update a company's account chart from a template
+[account_check_deposit](account_check_deposit/) | 12.0.2.0.1 |  | Manage deposit of checks, cash, etc. to the bank
+[account_clearance_plan](account_clearance_plan/) | 12.0.1.0.1 |  | This addon allows to define clearance plans in order to reorganize debts (own and customers' ones).
+[account_coa_menu](account_coa_menu/) | 12.0.1.0.0 |  | Adds menu entries for Chart of Accounts templates
+[account_cost_center](account_cost_center/) | 12.0.1.0.0 |  | Cost center information for invoice lines
+[account_document_reversal](account_document_reversal/) | 12.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Create reversed journal entries when cancel document
+[account_fiscal_month](account_fiscal_month/) | 12.0.1.0.0 |  | Provide a fiscal month date range type
+[account_fiscal_position_vat_check](account_fiscal_position_vat_check/) | 12.0.1.0.0 |  | Check VAT on invoice validation
+[account_fiscal_year](account_fiscal_year/) | 12.0.1.0.1 | [![eLBati](https://github.com/eLBati.png?size=30px)](https://github.com/eLBati) | Create a menu for Account Fiscal Year
+[account_fiscal_year_auto_create](account_fiscal_year_auto_create/) | 12.0.1.0.1 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Automatically create new fiscal years, based on the datas of the last fiscal years
+[account_group_menu](account_group_menu/) | 12.0.1.0.0 |  | Adds menu entries for Account Group and Tax Group
+[account_invoice_constraint_chronology](account_invoice_constraint_chronology/) | 12.0.1.0.2 |  | Account Invoice Constraint Chronology
+[account_invoice_currency](account_invoice_currency/) | 12.0.1.0.0 |  | Company currency in invoices
+[account_journal_lock_date](account_journal_lock_date/) | 12.0.2.0.0 |  | Lock each journal independently
+[account_loan](account_loan/) | 12.0.1.1.0 |  | Account Loan management
+[account_lock_date_update](account_lock_date_update/) | 12.0.1.0.0 |  | Allow an Account adviser to update locking date without having access to all technical settings
+[account_lock_to_date](account_lock_to_date/) | 12.0.1.0.0 |  | Allows to set an account lock date in the future.
+[account_menu](account_menu/) | 12.0.1.0.0 |  | Adds missing menu entries for Account module
+[account_move_batch_validate](account_move_batch_validate/) | 12.0.1.0.0 |  | Account Move Batch Validate
+[account_move_budget](account_move_budget/) | 12.0.1.0.0 |  | Create Accounting Budgets
+[account_move_chatter](account_move_chatter/) | 12.0.1.0.0 | [![pedrobaeza](https://github.com/pedrobaeza.png?size=30px)](https://github.com/pedrobaeza) | Chatter on journal entries
+[account_move_fiscal_month](account_move_fiscal_month/) | 12.0.1.1.1 |  | Display the fiscal month on journal entries/item
+[account_move_fiscal_year](account_move_fiscal_year/) | 12.0.1.1.0 |  | Display the fiscal year on journal entries/item
+[account_move_line_drilldown](account_move_line_drilldown/) | 12.0.1.0.0 |  | Group journal items by the first 2 account group levels
+[account_move_line_partner_country](account_move_line_partner_country/) | 12.0.1.0.0 | [![alexey-pelykh](https://github.com/alexey-pelykh.png?size=30px)](https://github.com/alexey-pelykh) | Show Partner's Country on Account Move Line.
+[account_move_line_purchase_info](account_move_line_purchase_info/) | 12.0.2.0.0 |  | Introduces the purchase order line to the journal items
+[account_move_line_tax_editable](account_move_line_tax_editable/) | 12.0.1.1.0 |  | Allows to edit taxes on non-posted account move lines
+[account_move_template](account_move_template/) | 12.0.1.1.0 |  | Templates for recurring Journal Entries
+[account_netting](account_netting/) | 12.0.1.0.0 |  | Compensate AR/AP accounts from the same partner
+[account_partner_required](account_partner_required/) | 12.0.1.0.0 |  | Adds an option 'partner policy' on account types
+[account_payment_netting](account_payment_netting/) | 12.0.1.0.1 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Net Payment on AR/AP invoice from the same partner
+[account_permanent_lock_move](account_permanent_lock_move/) | 12.0.1.0.0 |  | Permanent Lock Move
+[account_renumber](account_renumber/) | 12.0.1.0.0 |  | Account Renumber Wizard
+[account_spread_cost_revenue](account_spread_cost_revenue/) | 12.0.1.2.1 | [![astirpe](https://github.com/astirpe.png?size=30px)](https://github.com/astirpe) | Spread costs and revenues over a custom period
+[account_subsequence_fiscal_year](account_subsequence_fiscal_year/) | 12.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow to create sub sequences for account moves number, based on the fiscal years settings
+[account_tag_menu](account_tag_menu/) | 12.0.1.0.0 |  | Adds a menu entry for Account Tags
+[account_template_active](account_template_active/) | 12.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Allow to disable / enable account template items (tax, fiscal position, account)
+[account_type_menu](account_type_menu/) | 12.0.1.0.0 |  | Adds a menu entry for Account Types
+[account_voucher_print](account_voucher_print/) | 12.0.1.0.0 |  | Enable printing in sale and purchase receipts
+[base_vat_optional_vies](base_vat_optional_vies/) | 12.0.1.0.1 |  | Optional validation of VAT via VIES
 
 [//]: # (end addons)
 
-[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
+<!-- prettier-ignore-end -->
+
+## Licenses
+
+This repository is licensed under [AGPL-3.0](LICENSE).
+
+However, each module can have a totally different license, as long as they adhere to Odoo Community Association (OCA)
+policy. Consult each module's `__manifest__.py` file, which contains a `license` key
+that explains its license.
+
+----
+OCA, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit
+organization whose mission is to support the collaborative development of Odoo features
+and promote its widespread use.

@@ -1,69 +1,62 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* account_invoice_currency
+# * account_invoice_currency
 #
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 7.0-20130927-231103\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 11:53+0000\n"
-"PO-Revision-Date: 2015-01-06 17:39+0100\n"
+"POT-Creation-Date: 2017-12-22 03:41+0000\n"
+"PO-Revision-Date: 2018-10-11 14:19+0000\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
-"Language-Team: \n"
+"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"X-Generator: Poedit 1.5.4\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.1.1\n"
 
 #. module: account_invoice_currency
-#: help:account.invoice,cc_amount_total:0
-msgid ""
-"Invoice total amount in the company currency (useful when invoice currency "
-"is different from company currency)."
-msgstr ""
-"Rechnungsgesamtbetrag in Hauswährung (Sinnvoll, wenn die Rechnungswährung "
-"sich von der Hauswährung unterscheidet)."
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Amount Due"
+msgstr "Fälliger Betrag"
 
 #. module: account_invoice_currency
-#: field:account.invoice,cc_amount_total:0
-msgid "Company Cur. Total"
-msgstr "Gesamtbetrag in Hauswährung"
-
-#. module: account_invoice_currency
-#: field:account.invoice,cc_amount_tax:0
-msgid "Company Cur. Tax"
-msgstr "Steuer in Hauswährung"
-
-#. module: account_invoice_currency
-#: help:account.invoice,cc_amount_tax:0
-msgid ""
-"Invoice tax amount in the company currency (useful when invoice currency is "
-"different from company currency)."
-msgstr ""
-"Steuerbetrag in Hauswährung (Sinnvoll, wenn die Rechnungswährung sich von "
-"der Hauswährung unterscheidet)."
-
-#. module: account_invoice_currency
-#: help:account.invoice,cc_amount_untaxed:0
-msgid ""
-"Invoice untaxed amount in the company currency(useful when invoice currency "
-"is different from company currency)."
-msgstr ""
-"Steuerfreier Betrag in Hauswährung (Sinnvoll, wenn die Rechnungswährung sich "
-"von der Hauswährung unterscheidet)."
-
-#. module: account_invoice_currency
-#: view:account.invoice:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_form
 msgid "Amounts in company currency"
 msgstr "Beträge in Hauswährung"
 
 #. module: account_invoice_currency
 #: model:ir.model,name:account_invoice_currency.model_account_invoice
 msgid "Invoice"
-msgstr "RechnungInvoice"
+msgstr "Rechnung"
 
 #. module: account_invoice_currency
-#: field:account.invoice,cc_amount_untaxed:0
-msgid "Company Cur. Untaxed"
-msgstr "Steuerfreier Betrag in Hauswährung"
+#: model:ir.model.fields,help:account_invoice_currency.field_account_invoice__amount_tax_signed
+msgid "Invoice tax amount in the company currency, negative for credit notes."
+msgstr "Steuerbetrag der Rechnung in Hauswährung, negativ bei Gutschriften."
+
+#. module: account_invoice_currency
+#: model:ir.model.fields,field_description:account_invoice_currency.field_account_invoice__amount_tax_signed
+msgid "Tax Signed"
+msgstr ""
+
+#. module: account_invoice_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Total"
+msgstr "Gesamt"
+
+#. module: account_invoice_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Total (Company Currency)"
+msgstr "Gesamt (Hauswährung)"
+
+#~ msgid "Tax"
+#~ msgstr "Steuer"

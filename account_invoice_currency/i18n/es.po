@@ -1,63 +1,34 @@
-# Translation of OpenERP Server.
+# Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* account_invoice_currency
+# * account_invoice_currency
 #
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenERP Server 5.0.9\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-11-18 11:53+0000\n"
-"PO-Revision-Date: 2014-04-08 19:42+0000\n"
-"Last-Translator: Pedro Manuel Baeza <pedro.baeza@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2017-12-22 03:41+0000\n"
+"PO-Revision-Date: 2017-12-22 03:41+0000\n"
+"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
+"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-06-12 06:31+0000\n"
-"X-Generator: Launchpad (build 17041)\n"
-"Language: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_invoice_currency
-#: help:account.invoice,cc_amount_total:0
-msgid ""
-"Invoice total amount in the company currency (useful when invoice currency "
-"is different from company currency)."
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Amount Due"
 msgstr ""
-"Total de la factura en la moneda de la compañía (útil cuando las monedas de "
-"la factura y de la compañía son distintas)."
 
 #. module: account_invoice_currency
-#: field:account.invoice,cc_amount_total:0
-msgid "Company Cur. Total"
-msgstr "Total moneda compañía"
-
-#. module: account_invoice_currency
-#: field:account.invoice,cc_amount_tax:0
-msgid "Company Cur. Tax"
-msgstr "Impuestos moneda compañía"
-
-#. module: account_invoice_currency
-#: help:account.invoice,cc_amount_tax:0
-msgid ""
-"Invoice tax amount in the company currency (useful when invoice currency is "
-"different from company currency)."
-msgstr ""
-"Impuestos de la factura en la moneda de la compañía (útil cuando las monedas "
-"de la factura y de la compañía son distintas)."
-
-#. module: account_invoice_currency
-#: help:account.invoice,cc_amount_untaxed:0
-msgid ""
-"Invoice untaxed amount in the company currency(useful when invoice currency "
-"is different from company currency)."
-msgstr ""
-"Importe sin impuestos de la factura en la moneda de la compañía (útil cuando "
-" la moneda de la factura es diferente de la moneda de la compañía)."
-
-#. module: account_invoice_currency
-#: view:account.invoice:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_form
 msgid "Amounts in company currency"
-msgstr "Importes moneda empresa"
+msgstr "Importes moneda compañía"
 
 #. module: account_invoice_currency
 #: model:ir.model,name:account_invoice_currency.model_account_invoice
@@ -65,6 +36,28 @@ msgid "Invoice"
 msgstr "Factura"
 
 #. module: account_invoice_currency
-#: field:account.invoice,cc_amount_untaxed:0
-msgid "Company Cur. Untaxed"
-msgstr "Base moneda compañía"
+#: model:ir.model.fields,help:account_invoice_currency.field_account_invoice__amount_tax_signed
+msgid "Invoice tax amount in the company currency, negative for credit notes."
+msgstr ""
+"Importe del impuesto en la moneda de la compañía. Negativo para las facturas "
+"rectificativas."
+
+#. module: account_invoice_currency
+#: model:ir.model.fields,field_description:account_invoice_currency.field_account_invoice__amount_tax_signed
+msgid "Tax Signed"
+msgstr ""
+
+#. module: account_invoice_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Total"
+msgstr ""
+
+#. module: account_invoice_currency
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_supplier_tree
+#: model_terms:ir.ui.view,arch_db:account_invoice_currency.invoice_tree
+msgid "Total (Company Currency)"
+msgstr ""
+
+#~ msgid "Tax"
+#~ msgstr "Impuesto"
